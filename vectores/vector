@@ -1,0 +1,31 @@
+lst_vacia = []
+
+fruits = ["naranja","manzana","pera","mango","limon","sandia","uva"]
+
+print("listas: ",len(lst_vacia))
+print("cabtidad de elementos dentro de la lista: ",len(fruits))
+print("\n")
+print("elementos: ")
+print("el elemento inicial de la lista es:", fruits[0])
+print("el lemento intermedio de la lista es:", fruits[3])
+print("el elemento final de la lista es:", fruits[6])
+
+print("\n")
+Datos_personales = ["nombre", "edad", "altura", "estado civil", "dirección"]
+print(Datos_personales)
+
+print("\n")
+it_Companies = ["Facebook","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
+it_Companies.insert(7,"Salitio")
+
+si_existe = "Salitio" in it_Companies
+print(si_existe)
+
+fruits.sort()
+
+fruits.reverse()
+
+fruits.pop()
+
+fruits.clear()
+print(fruits)
